@@ -12,6 +12,10 @@
 		18D775C722AD944400AE281E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C622AD944400AE281E /* Assets.xcassets */; };
 		18D775CA22AD944400AE281E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D775C922AD944400AE281E /* Preview Assets.xcassets */; };
 		18D775D822AD963800AE281E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D775DA22AD963800AE281E /* LaunchScreen.storyboard */; };
+		C45029DB282AF2EE00A8CFD8 /* CreateIceCreamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45029DA282AF2EE00A8CFD8 /* CreateIceCreamModel.swift */; };
+		C45029DD282AF86000A8CFD8 /* CreateIceCreamInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45029DC282AF86000A8CFD8 /* CreateIceCreamInteractor.swift */; };
+		C45029DF282B06FC00A8CFD8 /* CreateIceCreamPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45029DE282B06FC00A8CFD8 /* CreateIceCreamPresenter.swift */; };
+		C45029E1282B120300A8CFD8 /* CreateIceCreamConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45029E0282B120300A8CFD8 /* CreateIceCreamConfigurator.swift */; };
 		EA3B6B7227282CD800CE9E2B /* IceCream.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B6B7127282CD800CE9E2B /* IceCream.swift */; };
 		EA3B6B77272836B900CE9E2B /* IceCreamDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3B6B76272836B900CE9E2B /* IceCreamDataStore.swift */; };
 		EA42A07F272EEBF900A82D0A /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA42A07E272EEBF900A82D0A /* CodableBundleExtension.swift */; };
@@ -39,6 +43,10 @@
 		18D775C922AD944400AE281E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18D775CE22AD944400AE281E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D775DE22AD96B400AE281E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C45029DA282AF2EE00A8CFD8 /* CreateIceCreamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIceCreamModel.swift; sourceTree = "<group>"; };
+		C45029DC282AF86000A8CFD8 /* CreateIceCreamInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIceCreamInteractor.swift; sourceTree = "<group>"; };
+		C45029DE282B06FC00A8CFD8 /* CreateIceCreamPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIceCreamPresenter.swift; sourceTree = "<group>"; };
+		C45029E0282B120300A8CFD8 /* CreateIceCreamConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIceCreamConfigurator.swift; sourceTree = "<group>"; };
 		EA3B6B652725B14100CE9E2B /* ScoopsAndSconesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoopsAndSconesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3B6B7127282CD800CE9E2B /* IceCream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCream.swift; sourceTree = "<group>"; };
 		EA3B6B76272836B900CE9E2B /* IceCreamDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamDataStore.swift; sourceTree = "<group>"; };
@@ -150,6 +158,10 @@
 				EA42A080272EEC5800A82D0A /* Extensions */,
 				EAD54C9C272B8B0B00E1661A /* UI Components */,
 				EA9C6494271B0CE2000AD66F /* CreateIceCreamView.swift */,
+				C45029DA282AF2EE00A8CFD8 /* CreateIceCreamModel.swift */,
+				C45029DC282AF86000A8CFD8 /* CreateIceCreamInteractor.swift */,
+				C45029DE282B06FC00A8CFD8 /* CreateIceCreamPresenter.swift */,
+				C45029E0282B120300A8CFD8 /* CreateIceCreamConfigurator.swift */,
 			);
 			path = CreateIceCream;
 			sourceTree = "<group>";
@@ -319,8 +331,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45029DD282AF86000A8CFD8 /* CreateIceCreamInteractor.swift in Sources */,
+				C45029DF282B06FC00A8CFD8 /* CreateIceCreamPresenter.swift in Sources */,
 				EA42A07F272EEBF900A82D0A /* CodableBundleExtension.swift in Sources */,
 				EA3B6B77272836B900CE9E2B /* IceCreamDataStore.swift in Sources */,
+				C45029E1282B120300A8CFD8 /* CreateIceCreamConfigurator.swift in Sources */,
+				C45029DB282AF2EE00A8CFD8 /* CreateIceCreamModel.swift in Sources */,
 				18D775C522AD944300AE281E /* ContentView.swift in Sources */,
 				EA9C6495271B0CE2000AD66F /* CreateIceCreamView.swift in Sources */,
 				1839F4B025190F2A00BB00F1 /* AppMain.swift in Sources */,
