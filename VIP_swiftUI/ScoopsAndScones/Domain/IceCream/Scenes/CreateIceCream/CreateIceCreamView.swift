@@ -2,6 +2,7 @@
 
 import SwiftUI
 
+// MARK: View Protocol
 protocol CreateIceCreamDisplayLogic {
   func displayIceCream(viewModel: CreateIceCream.LoadIceCream.ViewModel)
 }
@@ -39,6 +40,7 @@ struct CreateIceCreamView: View {
   @State private var showDoneAlert = false
 
   var body: some View {
+    //Maybe remove navigationView and use router to remove this logic from here
     NavigationView {
       Form {
         Section {
